@@ -1,5 +1,5 @@
 <?php
-class Database_class
+class Database_class {
 	private $conn;
 	function  __construct($host, $user, $pass, $db)
 	{
@@ -1106,4 +1106,5 @@ if(!$gameLive){
 //$code="for switch case ? hu+=po jo-=lo lp*=hj for for for";
 //$Database->update_score($uname,$level,$ques,$code);
 //$Database->check_pb($uname,"loljmjm","f");
+
 ?>
