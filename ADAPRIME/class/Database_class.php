@@ -1077,7 +1077,7 @@ public function update_score($uname,$level,$ques,$code)
     
     
 }
-$Database=new Database_class("localhost", "root", "pritam@123", "gourav1");
+$Database=new Database_class("127.0.0.1", "root", "pritam@123", "gourav1");
 
 
 
@@ -1108,3 +1108,4 @@ if(!$gameLive){
 //$Database->check_pb($uname,"loljmjm","f");
 
 ?>
+
