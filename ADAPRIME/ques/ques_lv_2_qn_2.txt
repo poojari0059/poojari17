@@ -1,0 +1,53 @@
+
+<div>
+                                                                    <b><h1><center>CODESLASH</center></h1></b>
+   <b><h1> Bio-Weapons</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+
+Ground Force Chief : Well, here conditions are pretty worse. All the possible bio-weapons can be hidden in destinations here. 
+Fortunately we can visit all these destinations by roads from home. We have a map of this area. You need to design a program that
+will take the locations, roads, our speed and our available time to tell the count of destinations that can be visited within available time. 
+Good luck soldier!<br>
+<b>Note</b>: <li>Destination '0' is Home from where you have to start and reach again.</li>
+</p>
+
+<b>Input Format</b><br>
+First line of the input has an integer <b>N</b> (number of destinations), <b>R</b> (number of roads), <b>S</b> (speed in km/hr), <b>T</b> (time in hour) separated by space.<br>
+Next <b>R</b> lines contain 3 integers <b>D<sub>i</sub>, D<sub>j</sub></b>
+(denotes road between destination D<sub>i</sub> and D<sub>j</sub>) and <b>D</b>
+(denotes distance between destinition D<sub>i</sub> and D<sub>j</sub> in km)
+separated by space.<br><br>
+
+<b>Constraints</b>
+<ul>
+<li>2<=<b>N</b><=10<sup>2</sup></li>
+<li>1<=<b>R</b><=(N(N-1))/2</li>
+<li>0<=<b>D<sub>i</sub>,D<sub>j</sub></b>< N </li>
+<li>0<<b>T,S,D</b><=10<sup>2</li>
+</ul>
+<b>Output Format</b><br>
+An integer representing number of destinations as available options that can be visited in given time.<br><br>
+<b>Sample Input</b> <br>
+7
+6 3 5<br>
+0 1 1<br>
+0 2 5<br>
+0 3 6<br>
+0 4 7<br>
+0 5 9<br>
+5 6 3
+
+<br><br>
+
+<b>Sample output</b><br>
+4<br><br>
+<b>Explanation</b><br>
+
+Test Case #00: There are 4 such destinations present in map if individually visited from our home, we can also return back within the available time.<br>
+
+
+</font>
+</font>
+</div>

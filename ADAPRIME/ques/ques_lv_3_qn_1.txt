@@ -1,0 +1,62 @@
+
+<div>
+                                                                    <b><h1><center>MIX-N-MATCH</center></h1></b>
+   <b><h1>Calculator</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+   Implement a calculator, which should be able to perform following type of operations.<br>
+<ol>
+ <li><b>ADD</b>:Addition of two numbers.</li>
+<li><b>SUB</b>:Subtract two numbers.</li>
+<li><b>MUL</b>:Multplication of two numbers.</li>
+<li><b>DIV</b> :Division of two numbers(result should be floor  of first number/second number).</li>
+<li><b>MAX</b>:Find maximum between two number,if both are equal result should be 0.</li>
+<li><b>MIN</b>:Find minimum between two number,if both are equal result should be 0.</li>
+<li><b>MOD</b>:modulus of numbers.</li>
+
+</ol>
+ 
+</p>
+
+<b>Input Format</b><br>
+First line of the input has an integer <b>Q</b>(Queries). <b>Q</b> cases follow. <br>
+Each Query contains <b>type</b>(type of operation), <b>A</b>(first number) and <b>B</b>(second number) separated by space.<br><br> 
+
+<font color="red">Constraints Updated!</font><br>
+<b>Constraints</b> 
+<ul>
+<li>1<=<b>Q</b><=10<sup>2</sup></li>
+<li>1<=<b>type</b><=7</li>
+<li> -10<sup>3</sup><= <b>A,B</b> <=10<sup>3</sup></li>
+<li>For DIV and MOD <b>B</b> wil not be 0</li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print the result in a new line.<br><br>
+
+<b>Sample Input</b> <br>
+ 8<br>
+1 2 4<br>
+2 3 2<br>
+3 2 4<br>
+4 4 2<br>
+4 3 2<br>
+5 1 2<br>
+6 2 3<br>
+7 5 2<br>
+
+<br>
+<b>Sample output</b><br>
+6<br>
+1<br>
+8<br>
+2<br>
+1<br>
+2<br>
+2<br>
+1<br>
+
+
+</font>
+</font>
+</div>

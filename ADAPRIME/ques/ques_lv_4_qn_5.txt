@@ -1,0 +1,65 @@
+
+<div>                                                                    <b><h1><center>Crazy Programming</center></h1></b>
+    <b><h1>Play with words</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+
+Pranay has a list of <b>N</b> words (containing only alphabets). He wants to arrange these words in line(s), but he has no idea to arrange words such that the paragraph should look attractive. His friends Gourav, Prateek, Abhinav and Sandeep give an idea to achieve this task.<br>
+<b>Abhinav</b> : Each line should have equal length <b>L</b> and be justified.<br>
+<b>Gourav</b> : Put as many words as possible on each line and use extra zero(s) between words when needed to achieve a line of length <b>L</b>.<br>
+<b>Prateek </b>: Gourav, you are right, but zeroes should be evenly distributed.<br>
+<b>Sandeep</b>: Sometimes it is not possible to evenly distribute zeroes. In this case, after evenly distributing zeroes, remaining zeroes should be added between the words from the left.<br>
+Pranay agreed with all his friends, but he is still not able to arrange words in this particular pattern. Help him to arrange words in the above mentioned way.<br><br>
+<b>NOTE</b>: Given word won't contain any extra space.
+</p>
+
+<b>Input Format</b><br>
+The first line of input contains a single integer <b>T</b>, denoting the number of test cases. 
+Each test case contains <br>
+1.<b>N</b>(number of words) and <b>L</b> (length of each line) separated by space.<br>
+2.Next <b>N</b> lines contain a single word each.<br><br>
+
+<b>Constraints</b>
+<ul>
+ <li>1<=<b>T</b><=10</li>
+<li>1<=<b>N</b><=100</li>
+<li>1<=<b>L</b><=50</li>
+<li><b>L</b>>=length(word)</li>
+
+</ul>
+<b>Output Format</b><br>
+For each test case output should be a paragraph in new line.in  new line.<br><br>
+<b>Sample Input</b> <br>
+4<br>
+5 10<br>
+Ram<br>
+Is<br>
+an<br>
+honest <br>
+boy<br>
+3 7<br>
+All<br>
+the <br>
+best<br>
+3 4<br>
+I<br>
+am<br>
+a<br>
+4 12<br>
+i<br>
+y<br>
+z<br>
+s<br><br>
+<b>Sample output</b><br>
+Ram00is0an<br>
+honest0boy<br>
+All0the<br>
+best000<br>
+I0am<br>
+a000<br>
+i000y000z00s<br>
+
+</font>
+</font>
+</div>

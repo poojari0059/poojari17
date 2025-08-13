@@ -1,0 +1,2 @@
+Syntax Error : 
+exec psql -u {username} -p {password}

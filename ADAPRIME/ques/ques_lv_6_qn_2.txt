@@ -1,0 +1,38 @@
+<div>
+                                                                    <b><h1><center>The Tight Spot</center></h1></b>
+<b><h1>Civil War in civilized manner</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+Captain America and Ironman are tired of fighting battles and need something to refresh their grey cells. They have <b>N</b> stacks of cartons. Each i<sup>th</sup> stack has <b>d</b><sub>i</sub> cartons in it. They take alternate turns with Captain America always starting first. At each of their turns, they can choose any one of the stack and then divide the number of cartons in that stack into any number of unequal stack and ensure that none of the two newly created stacks have same number of cartons. The one who cannot make any move further will lose the game ie when none of the remaining stacks are divisible.<br><br>
+Who will win the game if both of them play optimally?<br><br>
+
+<b>Input Format</b><br>
+The first line of input contains a single integer <b>T</b>, denoting the number of test cases. <br>
+Each test case contains the value <b>N</b> followed by <b>N</b> space separated values of <b>d</b><sub>i</sub> denoting the number of cartons in each stack.
+<br><br>
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10</li>
+<li>1<=<b>N</b><=50</li>
+<li>1<=<b>d</b><sub>i</sub><=50</li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print the winner in new line as <b>CAPTAIN AMERICA</b> if he wins or else <b>IRONMAN</b>.<br>
+If there are more than one dangerous position with equal intensity then return the minimum position.
+<br><br>
+<b>Sample Input</b> <br>
+1<br>
+1<br>
+4<br>
+<br>
+<b>Sample output</b><br>
+IRONMAN<br><br>
+<b>Explanation</b><br>
+<b>Test Case 1:</b> N = 1, only 1 stack of carton with 4 cartons in it<br><br>
+Since, Captain America begins so he divides the stack of <b>4</b> cartons into unequal stacks of <b>3</b> cartons and <b>1</b> cartons.<br>Ironman then further divides the stack of <b>3</b> cartons into stacks of <b>2</b> and <b>1</b> carton.<br>So now the <b>3</b> stacks of cartons contain <b>1,2,1</b> cartons respectively and none of them can further be divided into unequal stacks, so Captain America can't make any move so Ironman wins.
+<br><br>
+
+</font>
+</font>
+</div>

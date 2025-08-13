@@ -1,0 +1,2 @@
+Syntax : cat {os/tmp.txt}
+The content printing command to show a file.

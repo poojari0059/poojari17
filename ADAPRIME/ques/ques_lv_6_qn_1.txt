@@ -1,0 +1,61 @@
+
+<div>
+                                                                    <b><h1><center>The Tight Spot</center></h1></b>
+   <b><h1>Reboot Sequence</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+
+Secret Service Client : Hello, sorry for disturbing you always but we have a new problem. We have acquired set of processing chips having some classified data found by our brother in arms. Although these chips are some sort of computers and are in deadlock states. We need to reboot each of them. They have some sequence numbers on them. To reboot them, we need to put sequence instructions in form of numbers and our intelligence gave us examples to generate such sequence of numbers using the given sequence. Help us constructing the reboot sequence.
+
+</p>
+
+<b>Input Format</b><br>
+The first line of input contains a single integer <b>T</b>, denoting the number of test cases. <br>Each 
+ test case contains an Integer <b>N</b>.<br><br>
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10</li>
+<li>0<=<b>N</b><=10<sup>6</sup></li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print all possible output each in new line.<br><br>
+<b>Sample Input</b> <br>
+3<br>
+12<br>
+123<br>
+1234<br>
+<br>
+
+<b>Sample output</b><br>
+21<br>
+12<br>
+321<br>
+231<br>
+213<br>
+132<br>
+123<br>
+4321<br>
+3421<br>
+3241<br>
+3214<br>
+2431<br>
+2341<br>
+2314<br>
+2143<br>
+2134<br>
+1432<br>
+1342<br>
+1324<br>
+1243<br>
+1234<br>
+<br>
+
+<b>NOTE:</b> Output should be in particular sequence as given in sample input-output.<br>
+<b>NOTE:</b> The '0' as prefix is immaterial, hence should not be printed in output sequence e.g. 0078 should be printed as 78.<br>
+
+
+</font>
+</font>
+</div>

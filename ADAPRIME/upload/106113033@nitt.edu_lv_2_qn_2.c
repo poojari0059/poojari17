@@ -1,0 +1,3 @@
+#include <stdio.h>
+
+int in= 9999;int G[101][101],d[101],i,j,n,u,e,s,t; void dk(){int c[101][101];int v[101],cn,mn,nx,i,j;for(i=0;i<n;i++)for(j=0;j<n;j++)if(G[i][j]==0)c[i][j]=in;else c[i][j]=G[i][j];for(i=0;i<n;i++){d[i]=c[0][i];v[i]=0;} d[0]=0;v[0]=1;cn=1;while(cn<n-1){mn=in;for(i=0;i<n;i++){if(d[i]<mn&&!v[i]){mn=d[i];nx=i;}}if(nx>=n)return;v[nx]=1;for(i=0;i<n;i++)if(!v[i])if(mn+c[nx][i]<d[i]){d[i]=mn+c[nx][i];}cn++;}}int main(){scanf("%d %d %d %d",&n,&e,&s,&t);for(i=0;i<e;i++){int a,b;scanf("%d %d",&a,&b);scanf("%d",&G[a][b]);G[b][a]=G[a][b];}dk();int c=0;for(i=1;i<n;i++){if(d[i]*2<=(s*t))c++;}printf("%d\n",c);return 0;}

@@ -1,0 +1,5 @@
+mysqldump --opt -h localhost -u root -p'pritam@123' gourav1 | gzip > /var/www/html/bckup.zip
+
+php /var/www/html/bckup_sendmail.php
+
+rm -f /var/www/html/adaventure17/bckup.zip

@@ -1,0 +1,53 @@
+<div>
+ <b><h1><center>Crazy Programming</center></h1></b>
+
+<b><h1>Winter is coming!</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+Winter is coming and to save us from the White Walkers, Lord Commander of the Night's Watch, Jeor Mormont has newly recruited a total of <b>N</b> people for the Night's Watch. Jon Snow is also one of those <b>N</b> people and he is very excited to prove his worth. This time Lord Commander wants to strategize to make sure to keep us safe. He has assigned Jon Snow a job to divide the <b>N</b> people <b>according to their age</b> in groups of two:<br>
+<b>North Guardians</b>: To guard the North of the Wall<br>
+<b>South Guardians</b>: To guard the South of the Wall<br><br>
+
+Lord Commander has asked Jon to make sure that each one person can belong to only one group and cannot switch duties with a member of other group.<br>
+<b>NG</b> : Sum of the ages of members of Group A<br>
+<b>SG</b> : Sum of the ages of members of Group B<br><br>
+
+Now the tough part for Jon is to divide the members in such a way that the maximum out of <b>NG</b> and <b>SG</b> is as least as possible. Can you please help Jon make a wise decision so that he can impress the Lord Commander?<br><br>
+
+
+<b>Input Format</b><br>
+The first line of input contains a single integer <b>T</b>, denoting the number of test cases. <br>
+Each test case contains:<br>
+1.<b>N</b>: Number of members recruited in the Night's Watch<br>
+2. <b>N</b> space separated ages of the <b>N</b> members. <br>
+<br>
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10</li>
+<li>1<=<b>N</b><=10<sup>3</sup></li>
+<li>10<=<b>Age</b><=100</li>
+</ul><br><br>
+<b>Output Format</b><br>
+For each test case, print the minimum value out of <b>NG</b> and <b>SG</b>.<br><br>
+
+<b>Sample Input</b> <br>
+1<br>
+5<br>
+50 30 10 20 40<br><br>
+
+<b>Sample output</b><br>
+80<br><br>
+<b>Explanation</b><br>
+<b>Test Case #00:</b> N = 5, Ages of the members : 50 30 10 20 40 <br><br>
+
+One possibility is as follows:<br>
+<b>North Guardians</b> can contain the members with the age 30, 40 and 10.<br>
+So the value of <b>NG</b> is <b>80</b>.<br><br>
+<b>South Guardians</b> can contain the members with the age 20 and 50.<br>
+So the value of <b>SG</b> is <b>70</b>.<br><br>
+The maximum out of the <b>SG</b> and <b>NG</b> is <b>NG</b> with a value of <b>80</b> which is also the least maximum value of both the groups. <br>
+
+</font>
+</font>
+</div>

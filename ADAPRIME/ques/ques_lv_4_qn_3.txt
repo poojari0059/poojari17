@@ -1,0 +1,35 @@
+<div>                                                     <b><h1><center>Crazy Programming</center></h1></b>
+   <b><h1>Special torch</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+
+ Abhinav has special type of torch which transmits a light which is either of blue or yellow color with probability <b>B</b> and <b>Y</b> respectively. He has two machines <b>M1</b> and <b>M2</b>, by which he can identify the colour of the light correctly. The light emitted from the torch is received by the machine <b>M1</b> and then transmitted to machine <b>M2</b>. The probability that each machine receives the light correctly is <b>C</b>. If he has found that the signal received by machine <b>M2</b> is blue, then he wants to find the probability that the original light was also blue.
+</p>
+
+<b>Input Format</b><br>
+First line of the input has an integer <b>T</b>. <b>T</b> cases follow. <br>
+Each test case contains <b>B</b>, <b>Y</b> and <b>C</b> separated by space.<br><br> 
+
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10<sup>3</sup></li>
+<li>0<<b>B</b>,<b>Y</b>,<b>C</b><1</li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print the probability that original light was blue in a new line.<br><br>
+Output should be upto two precision after decimal<br>
+
+<b>Sample Input</b> <br>
+1<br>
+0.25 0.75 0.75<br>
+
+<br>
+<b>Sample output</b><br>
+0.36<br>
+
+
+</font>
+</font>
+</div>

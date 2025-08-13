@@ -1,0 +1,35 @@
+
+<div>
+                                                                    <b><h1><center>ABOUT-TURN</center></h1></b>
+ <b><h1>PROBLEM-7</h1></b>
+<font face="arial">
+<font size="4">
+<b>Input Format</b>
+<ul>
+<li>First line of the input has an integer <b>T</b>. <b>T</b> cases follow. </li> 
+<li>An integer <b>N</b>  in a new line.</li>
+<li>next line contains <b>N</b> integers(<b>N<sub>i</sub></b>) separated by space.</li>
+
+</ul>
+<b>Constraints:</b>
+<ul>
+<li>1<=<b>T</b><=5</li>
+<li>1<=<b>N</b><=10<sup>2<sup></li>
+<li>-10<sup>2</sup><=<b>N<sub>i</sub></b><=10<sup>2<sup></li>
+  
+</ul>
+<b>Output Format</b> <br>
+For each test case, print output in new line.<br><br>
+
+<b>Sample Input</b><br>
+1<br>
+3<br>
+1 2 3<br>
+<br>
+<b>Sample output</b><br>
+8<br>
+<br><font face="arial" color="red">The below input and output doesn't contain testcases, but you should make your program taking testcases as input.</font><br>
+<font face="arial" color="red">In case of wrong input you may get unexpected output.</font>
+</font>
+</font>
+</div>

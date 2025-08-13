@@ -1,0 +1,23 @@
+3
+4 14
+This
+is
+adaventure
+prime
+4 5
+This
+is
+ada
+prime
+11 20
+Hello
+world
+welcome
+Academy
+this
+is
+your
+choice
+to
+win
+game

@@ -1,0 +1,54 @@
+
+<div>
+<b><h1><center>MIX-N-MATCH</center></h1></b>
+<b><h1>Let the Hunger Games begin!</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+President Snow is back with the 76<sup>th</sup> Hunger Games and this time he has a rather interesting way of killing the first tribute. There are 2 tributes from each district of the <b>N</b> districts and each of the tributes are randomly standing at one position out of the <b>2N</b> positions. The product of the position of the tribute with their district number will represent the intensity of the danger of them being killed. The tribute with the median of all the <b>2N</b> intensities (taken in non-decreasing manner) will be the one that will be killed first. The median will be the <b>(N+1)</b><sup>th</sup> intensity and this position will be the most dangerous. As the President Snow's assistant, your job is to find out the most dangerous position.
+
+<br><br>
+
+<b>Input Format</b><br>
+The first line of input contains a single integer <b>T</b>, denoting the number of test cases. <br>
+Each test case contains 2 lines denoting :<br>
+1.<b>N</b>: Number of districts (starting from 1 to N)<br>
+2.An array of <b>2N</b> values with the district numbers of each tribute standing in the that order.<br><br>
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10</li>
+<li>1<=<b>N</b><=10<sup>3</sup></li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print the most dangerous position in a new line.<br>
+If there are more than one dangerous position with equal intensity then return the minimum position.
+<br><br>
+<b>Sample Input</b> <br>
+2<br>
+2<br>
+1 1 2 2<br>
+3<br>
+2 3 3 1 2 1<br><br>
+
+<b>Sample output</b><br>
+3<br>
+2<br><br>
+<b>Explanation</b><br>
+<b>Test Case #00:</b> N = 2, Sequence in which the district tributes are standing : 1 1 2 2<br><br>
+Position: 1&emsp;2&emsp;3&emsp;4<br>
+District: &nbsp&nbsp1&emsp;1&emsp;2&emsp;2<br>
+Intensity:&nbsp1&emsp;2&emsp;6&emsp;8<br><br>
+Median of intensities: 6<br>
+Position of tribute with '6' intensity:<b> 3</b>
+<br><br>
+
+<b>Test Case #01:</b> N = 3, Sequence in which the district tributes are standing : 2 3 3 1 2 1<br><br>
+Position: 1&emsp;2&emsp;3&emsp;4&emsp;5&emsp;6<br>
+District: &nbsp&nbsp2&emsp;3&emsp;3&emsp;1&emsp;2&emsp;1<br>
+Intensity:&nbsp2&emsp;6&emsp;9&emsp;4&nbsp&nbsp10&emsp;6<br><br>
+Median of intensities: 6<br>
+But since <b>two</b> positions have the same intensity, we return the <b>minimum</b> position with the intensity <b>6</b>. Hence the position returned is <b>2</b>.
+<br><br>
+</font>
+</font>
+</div>

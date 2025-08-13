@@ -1,0 +1,2 @@
+Syntax : exec {os/prog} [args]
+Allows you to execute a module in the os with arguments.

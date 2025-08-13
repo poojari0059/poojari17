@@ -1,0 +1,32 @@
+5
+5 -1 1
+h=a*b
+e=-g+m
+m=d*b
+d=-b-a
+g=-b*a
+3 5 5
+e=-d-m
+m=f*e
+f=m*r
+4 -10 -10
+z=-a*i
+k=l-m
+l=i+k
+m=z-a
+6 7 6
+z=-a*i
+h=l-m
+l=i+k
+m=p-a
+i=a+b
+k=i-m
+8 10 8
+m=g*h
+h=-g*i
+d=e+f
+g=n*r
+e=a*b
+h=e*d
+i=a-b
+f=-i-b

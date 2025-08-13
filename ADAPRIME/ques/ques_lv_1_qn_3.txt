@@ -1,0 +1,41 @@
+
+<div>
+                                                                    <b><h1><center>CRUNCHBOX</center></h1></b>
+   <b><h1>Special Vowel</h1></b>
+<font face="arial">
+<font size="4">
+<p>This is a basic question for you. For a given string, you have to find the count of  the <b> special vowels</b> (denoted by <b>V</b>). A vowel is said to be a special vowel if its neighbours are vowels of same case (either lower or upper). It is not a big task, but another task is that, you have to  find sum of all the numbers present in string (denoted by <b>SUM</b>). Now, your task is to find <b>V%SUM</b>. Assume that the first and last character can't be considered as a special vowel.
+</p>
+<b>Input Format</b><br>
+First line of the input has an integer <b>T</b>.<br>
+Next <b>T</b> lines contain a string <b>S</b>.<br><br>
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10<sup>2</sup></li>
+<li>1<=<b>length(S)</b><=10<sup>6</sup></li>
+<li>1<=<b>SUM</b><=10<sup>12</sup></li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print <b>V%M</b> in  new line.<br><br>
+<b>Sample Input</b> <br>
+3<br>
+avc9uae3aA<br>
+g1inc7oeai<br>
+saeiAl12k3<br><br>
+
+
+<b>Sample output</b><br>
+1<br>
+2<br>
+1<br><br>
+<b>Explanation</b><br>
+
+Test Case #00: No. of special vowel is 1, sum of numbers (9+3),Output=1%12=1<br>
+Test Case #02: No. of special vowel is 1, sum of numbers (12+3),Output=1%15=1<br>
+
+
+
+</font>
+</font>
+</div>

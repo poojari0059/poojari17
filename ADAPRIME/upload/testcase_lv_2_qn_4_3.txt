@@ -1,0 +1,26 @@
+5
+4 0 10
+x=d-e
+y=a*d
+d=-a-y
+e=a+j
+7 6 5
+k=x+h
+l=b+k
+g=f-i
+i=a-b
+x=i-g
+f=a*b
+h=x*i
+1 0 -10
+z=a*b
+2 -10 -10
+d=a*e
+e=-b-t
+6 3 9
+l=a+i
+v=u*w
+i=w*m
+u=m*b
+w=u-b
+m=a-b

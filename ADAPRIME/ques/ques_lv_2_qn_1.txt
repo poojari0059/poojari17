@@ -1,0 +1,73 @@
+
+<div>
+                                                                    <b><h1><center>CODESLASH</center></h1></b>
+   <b><h1>Coin Game</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+
+Koga and Ryuho are students of Mathematics. They like to play games. On a Sunday evening they planned to play a new game. Both have <b>N </b>boxes each having one or more coins. Boxes are numbered from <b>0</b> to <b>N-1</b>. Koga's <b>i<sup>th</sup></b> box has <b>A</b>[i] number of coins and Ryuho's <b>i<sup>th</sup></b> box has <b>B</b>[i] number of coins.
+</p>
+
+
+
+Game has the following rules:-
+<ul>
+<li>Initially both Koga and Ryuho have zero coins.</li>
+<li>The players move in alternating turns, with Koga always moving first. During each move, if the current player is Koga then he must choose the <b> i<sup>th</sup></b> box from its own set of box and collect <b>A</b>[i] coins. If the current player is Ryuho, then  he must choose the <b>i<sup>th</sup></b> box from its own set of box and collect <b>B</b>[i]  coins.</li>
+<li>Each box can be chosen only once meaning that the game always ends after <b>N</b> moves.</li>
+<li>If  Koga chooses i<sup>th</sup> box then the i<sup>th</sup> box can't be chosen by Ryuho from its own set of box or vice versa.</li>
+<li>The player with the maximum number of coins will win.</li>
+</ul>
+ 
+
+<b>Input Format</b><br>
+The first line of input contains a single integer <b>T</b>, denoting the number of test cases. <br>
+Each test case contains <b>3</b> lines describing the test case.<br>
+1. An integer  <b>N</b> denoting the number of boxes each player has.<br>
+2. <b>N </b>space separated integers denoting number of coins in Koga's <b>i<sup>th</sup></b> box.<br>
+3. <b>N</b> space separated integer denoting number of coins in Ryuho's <b>i<sup>th</sup></b> box.<br><br>
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10</li>
+<li>0<=<b>N</b><=10<sup>3</sup></li>
+<li>1<=<b>A</b>[i],<b></b>[i]<=10<sup>5</sup>
+</ul>
+<b>Output Format</b><br>
+For each test case, print one of the following predicted outcomes of the game on a new line:
+<ul>
+<li>Print  <b>KOGA</b> if Koga  will win.</li>
+<li>Print <b>RYUHO</b>  if Ryuho will win.</li>
+<li>Print <b>TIE</b>  if both the players will have same number of coins.</li>
+</ul>
+
+<b>Sample Input</b> <br>
+2<br>
+2<br>
+8 8<br>
+9 9<br>
+3<br>
+1 3 5<br>
+5 3 1<br><br>
+
+<b>Sample output</b><br>
+RYUHO<br>
+KOGA<br><br>
+<b>Explanation</b><br>
+<b>Test Case #00:</b> A{8,8},  B{9,9}<br>
+Both the players will only make 1 move each and all the possible number of coins collected by Ryuho will be greater than all the possible number of coins<br> collected by  Koga, so 
+Ryuho will win the game. Thus, we print  RYUHO on a new line.<br>
+
+<b>Test Case #01: </b>A{1,3,4},  B{5,3,1}<br>
+  Games end with the following N moves<br>
+1.	 Koga chooses 2<sup>nd</sup> box  and  collects 4 coins.<br>
+2.	Ryuho chooses  0<sup>th</sup> box and collects 5 coins. Note that Ryuho  will not choose 1<sup>st</sup> box , because this would lead Koga to win.<br>
+3.	Koga chooses 1<sup>st</sup> box (which is the only remaining move) and collects  3 coins.<br>
+                  As all the moves have been made, the game ends. Koga will have 7 coins and Ryuho  <br>will have 5 coins,
+                  so Koga  is the winner so we print  KOGA in a new line.<br>
+
+
+</font>
+</font>
+</div>

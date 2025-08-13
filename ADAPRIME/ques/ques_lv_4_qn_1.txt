@@ -1,0 +1,54 @@
+<div> <b><h1><center>Crazy Programming</center></h1></b>
+
+<b><h1>Hermoine's Time Turner</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+Harry and Hermoine were feeling adventurous so they planned to explore the Forbidden Forest. Unknowningly, they resurrected the evil spirit of Umbridge in the forest. Dumbledore makes them realize the grievious mistake they've made and how it will create a havoc at Hogwarts. He suggests them to travel back in time to rectify their mistake. But Harry and Hermoine don't exactly remember the number of hours ago that the evil spirit was resurrected. They do remember a time frame, though. So, Dumbledore gives them his special Time Turner to travel back in time in the range <b>[X,Y]</b> hours.<br><br> There are following special qualities about this Time Turner:<br>
+1.The number of ways in which the Time Turner can be used will be of <b>N</b> ways.<br>
+2.The i<sup>th</sup> way has number of turns as <b>d</b><sub>i</sub>. <br><br>
+Each of the <b>N</b> ways can be used multiple number of times.<br>
+
+For each value, <b>K</b> falling in the range <b>[X,Y]</b>, Dumbledore has asked Harry and Hermoine to find the total number of different ways in which they can travel back <b>K</b> hours in the past. 
+<br><br>
+
+<b>Input Format</b><br>
+Contains 3 lines as follows:<br>
+1.<b>N</b>: Number of ways in which the Time Turner can be turned.<br>
+2.<b>N</b> space-separated positive integers describing the number of turns <b>d<sub>1</sub>,d<sub>2</sub>...d<sub>n</sub></b>, each of which is unique.<br>
+3.Value of <b>X</b> and <b>Y</b>.<br>
+<br>
+<b>Constraints</b>
+<ul>
+
+<li>1<=<b>N</b><=10</li>
+<li>1<=<b>d<sub>i</sub></b><=100</li>
+<li>1<=<b>X</b><=<b>Y</b><=10<sup>5</sup></li>
+</ul>
+<b>Output Format</b><br>
+Print the sum of all the different ways in which <b>K</b> hours can be travelled where <b>K</b> falls in the range <b>[X,Y]</b>.<br>
+
+<b>Sample Input</b> <br>
+3<br>
+1 2 3<br>
+4 6<br>
+
+<b>Sample output</b><br>
+16<br>
+<b>Explanation</b><br>
+There are 3 ways in which the time turner can be turned.<br>
+<ol>
+<li>It can be turned <b>1</b> time.</li>
+<li>It can be turned <b>2</b> times.</li>
+<li>It can be turned <b>3</b> times.</li><br>
+</ol>
+<ul>
+<li>Number of ways to travel back 4 hours : {1,1,1,1},{1,1,2},{1,3},{2,2} = 4</li>
+<li>Number of ways to travel back 5 hours : {1,1,1,1,1},{1,1,1,2},{1,1,3},{1,2,2},{2,3} = 5</li>
+<li>Number of ways to travel back 6 hours : {1,1,1,1,1,1},{1,1,1,1,2},{1,1,2,2},{2,2,2},{1,1,1,3},{1,2,3},{3,3} = 7</li><br>
+<br>
+Total number of ways to travel : 4+5+7 = 16<br>
+
+</font>
+</font>
+</div>

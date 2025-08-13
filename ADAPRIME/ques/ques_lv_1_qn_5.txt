@@ -1,0 +1,40 @@
+
+<div>
+                                                                    <b><h1><center>CRUNCHBOX</center></h1></b>
+   <b><h1>Paint Surface</h1></b>
+<font face="arial">
+<font size="4">
+<p>Team Adaventure are always happy to do adventurous jobs, but this time they have a difficult job. They have a bar of length <b>M</b>  metres which is initially black and also four types of brushes of width 4 metres, 3 metres, 2 metres and 1 metre which is used to paint the rod with green, white, blue,and yellow color respectively. There is unlimited amount of color of each cateogry.
+ They have to find number of different ways to paint the bar such that:
+<ul>
+<li>The whole bar should be painted.</li>
+<li>No color should be overlapped (same type also).</li>
+<li>At the time of painting, whole width of the brush should be in contact with the surface of the bar.</li>
+</ul>
+Can you help team Adaventure to find the different number of ways to paint the bar?
+</p>
+
+<b>Input Format</b><br>
+First line of the input has an integer <b>T</b> denoting the number of testcases.<br>
+Next <b>T</b> lines contain an integer <b>N</b> (length of rod).<br><br>
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10<sup>3</sup></li>
+<li>0<<b>N</b><=10<sup>2</sup></li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print the number %1000000007  in  new line.<br><br>
+<b>Sample Input</b> <br>
+2<br>
+4<br>
+2<br><br>
+
+<b>Sample output</b><br>
+8<br>
+2<br><br>
+
+
+</font>
+</font>
+</div>

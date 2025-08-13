@@ -1,0 +1,45 @@
+<div>
+                                                                    <b><h1><center>Crazy Programming</center></h1></b>
+   <b><h1>Robbery in Magician's House</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+
+You are a robber and you are trying to rob a magician's house, where <b>N</b> boxes are arranged in a row indexed from <b>0</b> to <b>N-1</b> each with equal distance 500 cms in between them. Each box contains some coins, which is written on top of the box. Since,  it is a magician's house, if you steal any box, the number of coins of that box becomes equal to the product of the number of coins in the box itself and its neighbours, and that box will disappear from the row, and it's neighbours will become adjacent.
+How many maximum number of coins you can collect by stealing the boxes wisely?<br>
+<b>NOTE</b>:- You may imagine Box[-1]=Box[n]=1. They are not real therefore you can't steal them.
+
+
+</p>
+
+<b>Input Format</b><br>The first line of input contains a single integer <b>T</b>, denoting the number of test cases. <br>Each 
+      test case contains 2 lines describing a test case.<br>
+1.<b>N</b> number of boxes.<br>
+2.<b>N</b> integers separated by space denoting the number of coins in each box starting from indices 0 to N-1. <br><br>
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10</li>
+<li>1<=<b>N</b><=10<sup>2</sup></li>
+<li>0<=<b>no. of coins in each box</b><=10<sup>2</sup></li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print the floor value of the square root of the maximum number of coins that you can steal, each  in  new line.<br><br>
+<b>Sample Input</b> <br>
+2<br>
+ 4<br>
+3 2 5 8<br>
+5<br>
+3 1 5 8 1<br>
+<br><br>
+
+<b>Sample output</b><br>
+13<br>
+13<br><br>
+<b>Explanation</b><br>
+Test Case#00:   coins =  3*2*5      +  3*5*8    +  1*3*8      + 1*8*1   = 182<br>
+ floor(sqrt(182))=13.
+
+</font>
+</font>
+</div>

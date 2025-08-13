@@ -1,0 +1,38 @@
+
+<div>
+                                                                    <b><h1><center>CRUNCHBOX</center></h1></b>
+   <b><h1>Cow and Hen</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+
+Lieutenant : As a part of top intelligence, you have to tackle various day to day problems too. Our one of the scientists is fond of a farm of hens and cows but don't have time to manage them. Unfortunately, they are kept in a collective farm. Our scientists love to have regular count of hens in the farm. For the purpose he installed IoT pressure sensors
+to calculate number of feet and camera to calculate number of heads. Now you need to calculate number of hens to be broadcasted. <Cough> Don't consider it as a silly job.
+
+</p>
+
+<b>Input Format</b><br>
+First line of the input has an integer <b>T</b>.<br>
+Next <b>T</b> lines contain two integer <b>H</b>(number of heads) and <b>L</b>(number of legs) separated by space.<br><br>
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>T</b><=10<sup>3</sup></li>
+<li>0<=<b>H,L</b><=10<sup>18</sup></li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print the number of hens (if possible otherwise print<b> -1</b> ) in  new line.<br><br>
+<b>Sample Input</b> <br>
+1<br>
+68 198<br><br>
+
+<b>Sample output</b><br>
+37<br><br>
+<b>Explanation</b><br>
+
+Test Case #00: 37*2+31*4=198<br>
+
+
+</font>
+</font>
+</div>

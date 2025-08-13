@@ -1,0 +1,43 @@
+<div>
+                                                                    <b><h1><center>The Tight Spot</center></h1></b>
+<b><h1>Flying Jet</h1></b>
+<font face="arial">
+<font size="4">
+<p>
+There are N Jet ready to fly (numbered as <b>J<sub>0</sub>, J<sub>1</sub>, J<sub>2</sub>, J<sub>3</sub>,...., J<sub>N-1</sub></b>) on same horizontal surface on same straight line. Initially Jet <b>J<sub>0</sub></b> starts flying with constant velocity at angle <b>a</b> with horizontal surface on straight trajectory. After travelling some distance pilot of <b>J<sub>0</sub></b> observes that he has not enough fuel to fly and now, he can't  fly more than <b>T</b> seconds. The pilot of <b>J<sub>0</sub></b> informs the pilots of other Jets  <b>J<sub>0</sub>, J<sub>1</sub>, J<sub>2</sub>, J<sub>3</sub>,....., J<sub>N-1</sub></b> which are still on ground surface, that he needs fuel. Each Pilot of Jet <b>J<sub>1</sub>, J<sub>2</sub>, J<sub>3</sub>,...., J<sub>N-1</sub></b> observe that the  shortest distance between his Jet and trajectory of  <b>J<sub>0</sub></b>  is <b>D<sub>1</sub>, D<sub>2</sub>, D<sub>3</sub>,....., D<sub>N-1</sub></b>  respectively ready to fly with angle <b>2a</b> on its own straight trajectory with constant velocity . There is a chance of collision between Jets if all Jet fly. So, it is better to let one Jet among  <b>J<sub>1</sub>, J<sub>2</sub>, J<sub>3</sub>,......, J<sub>N-1</sub></b> fly which can reach to Jet <b>J<sub>0</sub></b> before time <b>T</b>. If more than one Jet is available to fly choose the Jet which takes minimum time among them if it is given that <b>J<sub>0</sub></b> is flying with speed <b>S</b>.<br>
+<b>Note</b>-: Jet <b>J<sub>0</sub></b>, <b>J<sub>0</sub>, J<sub>1</sub>, J<sub>2</sub>, J<sub>3</sub>,....., J<sub>N-1</sub></b>  should always fly in same vertical plane.<br>
+<b>J<sub>1</sub>, J<sub>2</sub>, J<sub>3</sub>,......., J<sub>N-1</sub></b> start fly perpendicular to line of motion <b>J<sub>0</sub></b>.<br>
+
+<b>Input Format</b><br>
+The first line of input contains a single integer <b>Testcase</b>, denoting the number of test cases. Each test case contain 3  lines describes a test case.<br>
+1.Integer <b>N</b> (denoting number of jets)<br>
+2.angle <b>a</b>(in degree) ,time <b>T</b> (in sec) and <b>S</b> (in metre/second).<br>
+3. <b>N-1</b>space separated distance <b>D<sub>i</sub></b>  (in meter) .<br>
+<br>
+
+<b>Constraints</b>
+<ul>
+<li>1<=<b>Testcase</b><=10</li>
+<li>0<<b>a</b><45</li>
+<li>0<<b>T</b><60</li>
+<li>0<<b>S</b><10<sup>3</sup></li>
+<li>0<<b>D<sub>i</sub></b><10<sup>3</sup></li>
+</ul>
+<b>Output Format</b><br>
+For each test case, print Jet number in  a new line. If no one is available to fly print <b>0</b>.
+<br><br>
+<b>Sample Input</b> <br>
+1<br>
+3<br>
+30 5 173<br>
+500 400<br><br>
+
+<b>Sample output</b><br>
+2<br><br>
+<b>Explanation</b><br>
+Test Case #00: Only Jet 2 will be before 5 seconds.
+<br>
+
+</font>
+</font>
+</div>

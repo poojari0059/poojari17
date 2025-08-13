@@ -1,0 +1,3 @@
+#include <stdio.h>
+
+long a[1002],b[1002],t,n,i,j;struct sl{long v;long i;}c[1002];int main(){scanf("%ld",&t);while(t--){scanf("%ld",&n);for(i=0;i<n;i++){scanf("%ld",&a[i]);}for(i=0;i<n;i++){scanf("%ld",&b[i]);c[i].v =a[i]+b[i];c[i].i= i;}for(i=0;i<n-1;i++)for(j=0;j<n-i-1;j++){if(c[j].v<c[j+1].v){struct sl temp=c[j];c[j]= c[j+1];c[j+1] = temp;}}long s1=0,s2=0;for(i =0 ;i<n;i++){if(i%2)s2+=b[c[i].i];else s1+=a[c[i].i];}if(s1>s2)printf("KOGA\n");else if(s2>s1)printf("RYUHO\n");else printf("TIE\n");}return 0;}

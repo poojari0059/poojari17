@@ -1,0 +1,6 @@
+ls : List tree
+cat : show content
+exec : execute module
+
+Remember to add a prefix '/' for specifying file names
+e.g. cat /ai/kernel.so

@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+char s[28][10],st2[102];int i,te,val[26],f=0,v[27],n,j,st1[102],t,t1,c,p;int prec(char c){return c=='*';}
+void di(){char op = st2[t1--];int g = st1[t--];int h = st1[t--];if(op=='+')st1[++t] = g+h;else if(op=='*')st1[++t] = g*h;else st1[++t] = h-g;}
+int main()
+{scanf("%d",&te);while(te--){f=0;for(i=0;i<26;i++){val[i]=0;v[i] = 0;} scanf("%d %d %d",&n,&val[0],&val[1]);v[0]=1;v[1]=1;v[26]=1;for( i=0;i<n;i++){scanf("%s",s[i]);}c=0;while(c<n){p = c;for(i=0;i<n;i++){int q=s[i][0]-'a',a=26,b=26;for(j=1;s[i][j]!='\0';j++)if(s[i][j]>='a' && s[i][j]<='z'){a = s[i][j]-'a';break;}j++;for(;s[i][j]!='\0';j++){if(s[i][j]>='a' && s[i][j]<='z'){b = s[i][j]-'a';break;}}if(v[a] && v[b] && !v[q]){t =-1;t1=-1;c++;j=2;if(s[i][j]=='-'){st1[++t] = (-1*val[a]);j+=2;}for(;s[i][j]!='\0';j++){if(s[i][j]>='a' && s[i][j]<='z'){st1[++t]=val[s[i][j]-'a'];}else if(s[i][j]=='+' || s[i][j]=='*' || s[i][j]=='-'){if(t1==-1 || prec(s[i][j])>prec(st2[t1])){st2[++t1] = s[i][j];}else{while(prec(s[i][j]) <= prec(st2[t1])){
+di();}st2[++t1] = s[i][j];}}else if(s[i][j]>='0' && s[i][j]<='9'){int no=0;while(s[i][j]>='0' && s[i][j]<='9'){no = no*10 + (s[i][j]-'0');j++;}st1[++t] = no;j--;}}while(t1!=-1)di();val[q]=st1[0];v[q]=1;break;}}if(p==c){f=1;break;}}if(!f){for(i = 2;i<26;i++){if(v[i])printf("%d ",val[i]);}}else printf("NA");printf("\n");}return 0;}

@@ -1,0 +1,3 @@
+#include <stdio.h>
+
+int i,n1,n2,b,n,t,j,w;char s1[54],s2[54],a[60],st[]="0123456789ABCDEFGHIJKLM";int sl(char s[]){int k =0;while(s[k]!='\0')k++;return k;}int tn(char c){for(i=0;i<22;i++){if(st[i]==c)return i;}}int v(char s[],int m){for(w=0;w<m;w++){if(tn(s[w])>=b)return 0;}return 1;}void add(){int c =0;n = (n1>n2)?n1:n2;for(j=0;j<n;j++){int p = (j>=n1)?0:(tn(s1[n1-j-1]));int q = (j>=n2)?0:(tn(s2[n2-j-1]));a[j] = st[(p+q+c)%b];c = (p+q+c)/b;}a[n]=st[c];}int main(){scanf("%d",&t);while(t--){scanf("%d",&b);scanf("%s",s1);n1 =sl(s1);scanf("%s",s2);n2 = sl(s2);if(v(s1,n1) && v(s2,n2)){add();i = -1;while(a[n-i-1]=='0')i++;if(i==n)printf("0");for(;i<n;i++){printf("%c",a[n-i-1]);}}else printf("NA");printf("\n");}return 0;}

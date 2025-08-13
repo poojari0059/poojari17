@@ -1,0 +1,2 @@
+Syntax : ls [-a] [os/]
+List all the directories, modules and files in a tree structure.

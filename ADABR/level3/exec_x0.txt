@@ -1,0 +1,2 @@
+Syntax Error
+exec x0 -u {username} -p {password}
